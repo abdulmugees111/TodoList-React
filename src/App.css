@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+/* .btn{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+} */
+ .li{
+  margin-top: 10px;
+
+} 
+.input-f{
+  border-radius: 10px;
+  border-bottom: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color:rgb(52, 19, 83);
+  border-block-color: white;
+  height: 40px;
+  font-size: 25px;
+  font-family: cursive;
+  color: aliceblue;
+}
+.bg{
+  height: 700px;
+  background-color: rgb(52, 19, 83);
+}
+.txt{
+  color: #a683af;
+  background-color:rgb(52, 19, 83);;
+    font-family: cursive;
+}
+.main1{
+  display: inline-flex;
+}
+.tbl{
+  background-color:#a683af;
+  border-block-color: revert;
+    border-radius: 15px;
+    border: dotted;
+    width: 500px;
+    height: 590px;
+}
+.bt{
+  padding: 0%;
+  color: #a683af;
+    background-color: rgb(52, 19, 83);
+    font-size: 35px;
+    height: 45px;
+    width: 45px;
+    border: solid;
+    border-radius: 30px;
+    margin-left: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bt-del{
+  color: #a683af;
+    background-color: rgb(52, 19, 83);
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    border: solid;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.txt2{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: cursive;
+  color: rgb(52, 19, 83);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  border-radius: 10px;
+  border-bottom: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color:rgb(52, 19, 83);
+  border-block-color: white;
+  height: 40px;
+  font-size: 25px;
+  font-family: cursive;
+  color:  #a683af;
+  width: 300px;
 }
